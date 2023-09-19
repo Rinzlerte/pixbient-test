@@ -1,35 +1,13 @@
-"use client"
 
-import React, { useEffect, useRef } from 'react';
 import Link from 'next/link';
+import Video from './Video'
 
-const Hero = ({url}) => {
-    const videoRef = useRef();
-
-    useEffect(() => {
-        setTimeout(()=>{
-            videoRef.current.play()
-        })
-    }, []);
-
+const Hero = () => {
   return (
     <section className='hero'>
         <div className='bg-container'>
             <div className='overlay'/>
-                <video 
-                    autoPlay 
-                    muted
-                    playsInline
-                    ref={videoRef}
-                    loop
-                    className="bg-container__el" 
-                    poster="./poster.webp">
-                    <source 
-                        src="./video/intro.mp4"
-                        type="video/mp4" 
-                    />
-                </video>
-
+                <Video />
                 <div className='hero-top'>
                     <div className='hero-title_wrapper'>
                         <h1 className='hero-title'>MAKE YOUR ARCHITECTURAL DREAMS COME TRUE</h1>

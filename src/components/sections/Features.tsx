@@ -4,6 +4,10 @@ import Link from 'next/link'
 
 import profilePic from '../../../public/poster.webp'
 
+import image1 from '../../../public/c1.webp'
+import image2 from '../../../public/c2.webp'
+import image3 from '../../../public/c3.webp'
+
 const Features = () => {
   return (
     <section id="features" className='features'>
@@ -14,11 +18,11 @@ const Features = () => {
 
               <div className='project-card__img'>
                 <Image
-                  src={profilePic}
+                  src={image1}
                   alt="name"
-                  width={1300}
-                  height={900}
-                  className="project-image"
+                  layout={'fill'}
+                  objectFit="cover"
+                  // className="project-image"
                 />
               </div>
 
@@ -33,12 +37,12 @@ const Features = () => {
             <Link href="/" className='project-card'>
 
               <div className='project-card__img'>
-                <Image
-                  src={profilePic}
+              <Image
+                   src={image1}
                   alt="name"
-                  width={1300}
-                  height={900}
-                  className="project-image"
+                  layout={'fill'}
+                  objectFit="cover"
+                  // className="project-image"
                 />
               </div>
 
@@ -52,12 +56,12 @@ const Features = () => {
             <Link href="/" className='project-card'>
 
               <div className='project-card__img'>
-                <Image
-                  src={profilePic}
+              <Image
+                   src={image2}
                   alt="name"
-                  width={1300}
-                  height={900}
-                  className="project-image"
+                  layout={'fill'}
+                  objectFit="cover"
+                  // className="project-image"
                 />
               </div>
 
@@ -72,12 +76,12 @@ const Features = () => {
             <Link href="/" className='project-card'>
 
               <div className='project-card__img'>
-                <Image
-                  src={profilePic}
+              <Image
+                 src={image3}
                   alt="name"
-                  width={1300}
-                  height={900}
-                  className="project-image"
+                  layout={'fill'}
+                  objectFit="cover"
+                  // className="project-image"
                 />
               </div>
 

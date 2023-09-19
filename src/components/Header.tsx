@@ -18,17 +18,17 @@ const Header = () => {
                             </Link>
                         </li>
                         <li className='primary-menu-item active'>
-                            <Link href="/exteriors">
+                            <Link href="/">
                                 Exteriors
                             </Link>
                         </li>
                         <li className='primary-menu-item active'>
-                            <Link href="/interiors">
+                            <Link href="/">
                                 Interiors
                             </Link>
                         </li>
                         <li className='primary-menu-item active'>
-                            <Link href="/contact">
+                            <Link href="/">
                                 Contact us
                             </Link>
                         </li>

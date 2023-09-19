@@ -6,7 +6,7 @@ import Features from '@/components/sections/Features'
 const Page = () => {
   return (
     <PageLayout>
-      <Hero url="https://portfolio.pixbient.com/wp-content/uploads/2023/09/all_projects_compres_cut.mp4"/>
+      <Hero />
       <Features />
     </PageLayout>
   )
