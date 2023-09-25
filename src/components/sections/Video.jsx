@@ -20,6 +20,7 @@ const Video = () => {
     ref={videoRef}
     loop
     className="bg-container__el" 
+    id="background-video"
     poster="./poster.webp">
     <source 
         src="./video/intro.mp4"
